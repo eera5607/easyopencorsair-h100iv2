@@ -1,6 +1,6 @@
 #! /bin/bash
 #cd to the folder where you compiled it
-cd /opt/ocl
+#cd /opt/ocl
 echo "Choose an option: 1. Pump mode 2. Temps vs Fan speeds"
 read OPTION 
 COLOR1='\033[1;32m'
