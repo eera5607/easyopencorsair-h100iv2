@@ -13,5 +13,5 @@ Install it with:
 `sudo apt-get install libusb-1.0-0-dev`
 
 ### Additional info
-To compile Open Corsair Link [download and extract the ZIP file](https://github.com/audiohacked/OpenCorsairLink) and execute this command on the folder with the extracted files:
+To compile Open Corsair Link [download and extract the ZIP file](https://github.com/audiohacked/OpenCorsairLink) and execute this command on the folder where the extracted files are located:
 `sudo make` 
