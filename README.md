@@ -1,6 +1,6 @@
 Easy Open Corsair for H100i v2 on Linux
 ===============
-Little script to speed up the configuration of AIO Corsair H100i v.2 using Open Corsair Link for Linux. 
+Short script to speed up the configuration of AIO Corsair H100i v.2 using Open Corsair Link for Linux. 
 
 The script will apply predefined parameters according to user selection. 3 different fan speed profiles and 2 pump modes are available. 
 
