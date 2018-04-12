@@ -2,11 +2,11 @@
 #cd to the folder where you compiled it
 cd /opt/ocl
 echo "Choose an option: 1. Pump mode 2. Temps vs Fan speeds"
-read OPCION 
+read OPTION 
 COLOR1='\033[1;32m'
 COLOR2='\033[1;31m'
 NC='\033[0m' 
-if [ $OPCION = 1 ]
+if [ $OPTION = 1 ]
 then
 	echo "Choose a mode: 1. Silent - 2. Performance"
 	read PMODE 
@@ -23,10 +23,10 @@ then
 	PSPEED=$(sudo ./OpenCorsairLink.elf --device 0  | grep "Pump Speed")
 	echo -e "${COLOR2}${PSPEED}${NC}"
 	else
-	echo "Elija una opcion correcta"
+	echo "Choose a correct option."
 	exit 1
 	fi
-elif [ $OPCION = 2 ]
+elif [ $OPTION = 2 ]
 	then
 	echo "Choose the profile: 1. Silent- 2. Balanced - 3. Performance."
 	read CMODE
